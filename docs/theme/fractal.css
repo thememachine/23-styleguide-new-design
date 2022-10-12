@@ -1,0 +1,57 @@
+:root {
+  --primary: #000c2e;
+  --secondary: #000c2e;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/* Header */
+.Header {
+  box-shadow: none;
+  background-color: var(--primary);
+  border-bottom: 1px solid var(--black);
+}
+
+.Header-title:link,
+.Header-title:visited,
+.Header-title:hover,
+.Header-title:active {
+  color: var(--white);
+}
+
+/* Sidebar */
+.Frame-panel--sidebar {
+  background-color: var(--white);
+}
+
+.Tree-title {
+  font-weight: bold;
+  border-bottom: 1px solid var(--primary);
+}
+
+/* Color palette  */
+.f-color {
+  width: 15rem;
+  height: 15rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  border: 1px solid var(--black);
+}
+
+.f-color__hex {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+a {
+  color: var(--primary);
+}
+
+.Prose {
+  max-width: 90%;
+}
