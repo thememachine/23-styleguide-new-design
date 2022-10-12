@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Style Guide</title>
+  <link href="../../style.css" media="all" rel="stylesheet" />
+  <meta name="theme-color" content="#0067B1">
+</head>
+<body >
+
+<h3 class="text-center p-4">Max width</h3>
+
+<section class="flex flex-col space-y-2">
+
+  <div class="bg-tint w-full mx-auto text-center">Mobile </div>
+
+  <div class="bg-green-1 max-w-screen-sm  w-full mx-auto p-4 text-center">sm: 640px</div>
+
+  <div class="bg-green-2 max-w-screen-md  w-full mx-auto p-4 text-center">md: 768px</div>
+
+  <div class="bg-green-3 max-w-screen-lg  w-full mx-auto p-4 text-center">lg: 1024px </div>
+
+  <div class="bg-green-4 max-w-screen-xl  w-full mx-auto p-4 text-center">xl: 1280</div>
+
+  <div class="bg-green-5 max-w-screen-2xl w-full mx-auto p-4 text-center">2xl: 1536px</div>
+
+</section>
+
+
+<h3 class="text-center p-4">width</h3>
+
+<section class="flex flex-col space-y-2">
+
+  <div class="bg-tint w-full p-4 text-center">default</div>
+
+  <div class="bg-green-1 w-[640px] mx-auto p-4 text-center">sm: 640px</div>
+
+  <div class="bg-green-2 w-[768px] mx-auto p-4 text-center">md: 768px</div>
+
+  <div class="bg-green-3 w-[1024px] mx-auto p-4 text-center">lg: 1024px </div>
+
+  <div class="bg-green-4 w-[1280px]  w-full mx-auto p-4 text-center">xl: 1280</div>
+
+  <div class="bg-green-5 w-[1536px] mx-auto p-4 text-center">2xl: 1536px</div>
+
+</section>
+
+
+
+
+
+
+<section class="fixed bottom-0 flex flex-col left-0 z-10 text-sm text-center w-full opacity-75">
+
+  <div class="sm:hidden bg-slate-50">
+    <code>Default</code>
+  </div>
+
+  <div class="hidden sm:block md:hidden  bg-slate-100">
+    <code>sm: 640px</code>
+  </div>
+
+  <div class="hidden md:block lg:hidden  md:bg-slate-100">
+    <div> md: 768px</div>
+  </div>
+
+  <div class="hidden lg:block xl:hidden  bg-slate-200">
+  <code>lg: 640</code>
+  </div>
+
+  <div class="hidden xl:block 2xl:hidden  bg-slate-300">
+    <code>xl 1280</code>
+  </div>
+
+  <div class="hidden 2xl:block   bg-slate-400">
+    <code>2xl 1536</code>
+
+  </div>
+</section>
+
+
+<script src="../../alpine3.10.3.min.js" defer></script>
+</body>
+</html>
+
