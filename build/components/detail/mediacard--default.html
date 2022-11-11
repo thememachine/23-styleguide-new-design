@@ -173,19 +173,19 @@
 <div class="Browser-panel Browser-code is-active" data-role="tab-panel" id="browser-3fd1bfb2ac47af879f633596197d36c9-panel-html">
     <code class="Code Code--lang-html hljs">
         
-        <pre><span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;lg:py-10 col-span-2&quot;</span>&gt;</span>
+        <pre><span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;lg:tw-py-10 tw-col-span-2&quot;</span>&gt;</span>
 
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bg-spring  aspect-square  w-full relative overflow-hidden&quot;</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;image-square  w-5/6 h-5/6  absolute bottom-0 right-0 shadow-card bg-slate-800 center-center&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;tw-bg-spring  tw-aspect-square  tw-w-full tw-relative tw-overflow-hidden&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;image-square  tw-w-5/6 tw-h-5/6  tw-absolute tw-bottom-0 tw-right-0 tw-shadow-card tw-bg-slate-800 tw-center-center&quot;</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;/img/tv.jpg&quot;</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;md:grid grid-cols-2 mt-5&quot;</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text-h6 mr-4&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;md:tw-grid tw-grid-cols-2 tw-mt-5&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;tw-text-h6 tw-mr-4&quot;</span>&gt;</span>
             Image card
         <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text-tint-darker&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;tw-text-tint-darker&quot;</span>&gt;</span>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -193,9 +193,9 @@
 <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
 
 <span class="hljs-comment">&lt;!--
-&lt;div class=&quot;col-span-2&quot;&gt;
-&lt;div class=&quot;col-span-3&quot;&gt;
-&lt;div class=&quot;col-span-4&quot;&gt;
+&lt;div class=&quot;tw-col-span-2&quot;&gt;
+&lt;div class=&quot;tw-col-span-3&quot;&gt;
+&lt;div class=&quot;tw-col-span-4&quot;&gt;
 --&gt;</span></pre>
         
     </code>
@@ -204,12 +204,12 @@
     
     <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-3fd1bfb2ac47af879f633596197d36c9-panel-view">
     <code class="Code Code--lang-twig hljs">
-        <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;lg:py-10 col-span-</span></span></span><span class="hljs-template-variable">{{ size }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">&quot;</span>&gt;</span>
+        <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;lg:tw-py-10 tw-col-span-</span></span></span><span class="hljs-template-variable">{{ size }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">&quot;</span>&gt;</span>
 
   </span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> type ==&quot;video&quot; %}</span><span class="xml">
   </span><span class="hljs-comment">{# video #}</span><span class="xml">
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;</span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> size ==&quot;4&quot; %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> aspect-video  </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name">else</span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> aspect-square </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endif</span></span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">  w-full relative overflow-hidden&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bg-slate-400 w-full h-full&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;</span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> size ==&quot;4&quot; %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-aspect-video  </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name">else</span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-aspect-square </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endif</span></span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">  tw-w-full tw-relative tw-overflow-hidden&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;tw-bg-slate-400 tw-w-full tw-h-full&quot;</span>&gt;</span>
 
       <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">itemprop</span>=<span class="hljs-string">&quot;video&quot;</span> <span class="hljs-attr">itemscope</span> <span class="hljs-attr">itemtype</span>=<span class="hljs-string">&quot;http://schema.org/VideoObject&quot;</span> <span class="hljs-attr">title</span>=<span class="hljs-string">&quot;TwentyThree - Get Real with Video&quot;</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">itemprop</span>=<span class="hljs-string">&quot;name&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;TwentyThree - Get Real with Video&quot;</span> /&gt;</span>
@@ -234,19 +234,19 @@
 
   </span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> type ==&quot;image&quot; %}</span><span class="xml">
   </span><span class="hljs-comment">{# image card #}</span><span class="xml">
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;</span></span></span><span class="hljs-template-variable">{{ color }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> size ==&quot;4&quot; %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> aspect-video  </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name">else</span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> aspect-square </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endif</span></span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> w-full relative overflow-hidden&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;image-square </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> size ==&quot;4&quot; %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> w-full h-full  </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name">else</span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> w-5/6 h-5/6 </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endif</span></span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> absolute bottom-0 right-0 shadow-card bg-slate-800 center-center&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;</span></span></span><span class="hljs-template-variable">{{ color }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> size ==&quot;4&quot; %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-aspect-video  </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name">else</span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-aspect-square </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endif</span></span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-w-full tw-relative tw-overflow-hidden&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;image-square </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">if</span></span> size ==&quot;4&quot; %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-w-full tw-h-full  </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name">else</span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-w-5/6 tw-h-5/6 </span></span></span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endif</span></span> %}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string"> tw-absolute tw-bottom-0 tw-right-0 tw-shadow-card tw-bg-slate-800 tw-center-center&quot;</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;/img/tv.jpg&quot;</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   </span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endif</span></span> %}</span><span class="xml">
 
   </span><span class="hljs-comment">{# content #}</span><span class="xml">
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;md:grid grid-cols-2 mt-5&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text-h6 mr-4&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;md:tw-grid tw-grid-cols-2 tw-mt-5&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;tw-text-h6 tw-mr-4&quot;</span>&gt;</span>
       </span><span class="hljs-template-variable">{{ title }}</span><span class="xml">
     <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text-tint-darker&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;tw-text-tint-darker&quot;</span>&gt;</span>
       </span><span class="hljs-template-variable">{{ titlelong }}</span><span class="xml">
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -254,9 +254,9 @@
 <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
 
 <span class="hljs-comment">&lt;!--
-&lt;div class=&quot;col-span-2&quot;&gt;
-&lt;div class=&quot;col-span-3&quot;&gt;
-&lt;div class=&quot;col-span-4&quot;&gt;
+&lt;div class=&quot;tw-col-span-2&quot;&gt;
+&lt;div class=&quot;tw-col-span-3&quot;&gt;
+&lt;div class=&quot;tw-col-span-4&quot;&gt;
 --&gt;</span></span></pre>
     </code>
 </div>
@@ -316,7 +316,7 @@
   ],
   <span class="hljs-attr">&quot;type&quot;</span>: <span class="hljs-string">&quot;image&quot;</span>,
   <span class="hljs-attr">&quot;size&quot;</span>: <span class="hljs-number">2</span>,
-  <span class="hljs-attr">&quot;color&quot;</span>: <span class="hljs-string">&quot;bg-spring&quot;</span>
+  <span class="hljs-attr">&quot;color&quot;</span>: <span class="hljs-string">&quot;tw-bg-spring&quot;</span>
 }</pre>
             
         
@@ -2692,40 +2692,6 @@
                 </ul>
             </li>
             
-        
-    
-        
-        
-        
-        
-        <li class="Tree-item Tree-entity" data-role="item">
-            <a
-                class="Tree-entityLink"
-                href="./buttons.html"
-                data-role="tree-link"
-                
-                data-pjax
-                data-test="buttons"
-                data-handle="buttons"
-            >
-                <span>Buttons</span>
-                
-
-<div class="Status Status--unlabelled">
-
-<div class="Status-dots">
-
-
-<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
-
-
-</div>
-
-</div>
-
-
-            </a>
-        </li>
         
     
         
@@ -5623,8 +5589,8 @@
                     <dt class="Tree-asideTerm">Built on:</dt>
                     <dd class="Tree-asideDescription">
                         
-                            <time datetime="2022-11-08T17:52:20.655Z">
-                                11/8/2022
+                            <time datetime="2022-11-11T06:33:31.634Z">
+                                11/11/2022
                             </time>
                         
                     </dd>
